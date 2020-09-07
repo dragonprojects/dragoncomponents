@@ -1,0 +1,89 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, span, table, form {
+	font-family: sans-serif;
+	color: black;
+}
+
+a:link, a:visited {
+	color: rgb(0, 175, 255);
+	text-decoration: underline;
+	scroll-behavior: smooth;
+	transition: color .1s;
+}
+
+a:hover, a:focus {
+	color: rgb(0, 75, 160);
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > tbody > tr > td, table > tbody > tr > th {
+	border: 1px solid #ddd;
+	text-align: left;
+	padding: 0.5em;
+}
+
+table > tbody > tr:nth-child(odd) {
+	background: rgba(0,0,0,.1);
+}
+
+table > thead > tr > td, table > thead > tr > th, table > tfoot > tr > td, table > tfoot > tr > th {
+	padding: 0.5em;
+	border: none;
+	text-align: center;
+}
+
+
+var {
+	font-family: monospace;
+	color: orange;
+}
+
+code, samp {
+	user-select: all;
+	background:  lightgrey;
+	font-family: monospace;
+	padding: 5px;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+pre code, code pre {
+	display: block;
+	padding: 10px;
+}
+
+kbd {
+	font-family: monospace;
+	display: inline-block;
+	user-select: all;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid grey;
+}
+
+mark {
+	background: var(--mark-background);
+	color: var(--mark-color);
+	padding: 0.15em;
+}
+
+textarea {
+	resize: vertical;
+}
+
+::placeholder {
+	color: grey;
+	opacity: 1;
+}
+
+::selection {
+	color: white;
+	background-color: blue;
+}

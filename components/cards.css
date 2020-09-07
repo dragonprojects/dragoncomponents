@@ -1,0 +1,13 @@
+.card {
+	border: 1px solid grey;
+	border-radius: 4px;
+	transition: box-shadow .2s ease,border .2s ease;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.card:hover {
+	box-shadow: 0 4px 4px 0 rgba(0,0,0,0.02);
+}
